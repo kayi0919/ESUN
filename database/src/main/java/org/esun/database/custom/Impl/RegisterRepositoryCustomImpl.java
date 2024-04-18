@@ -28,16 +28,20 @@ public class RegisterRepositoryCustomImpl implements RegisterRepositoryCustom {
                 predicates.add(cb.equal(root.get("username"), user.getUsername()));
             }
 
-            if (user.getRealname() != null) {
-                predicates.add(cb.equal(root.get("realname"), user.getRealname()));
+            if (user.getUserId() != null) {
+                predicates.add(cb.equal(root.get("userId"), user.getUserId()));
+            }
+
+            if (user.getEmail() != null) {
+                predicates.add(cb.equal(root.get("email"), user.getEmail()));
             }
 
             if (user.getPassword() != null) {
                 predicates.add(cb.equal(root.get("password"), user.getPassword()));
             }
 
-            if (user.getEmail() != null) {
-                predicates.add(cb.equal(root.get("email"), user.getEmail()));
+            if (user.getBiography() != null) {
+                predicates.add(cb.equal(root.get("biography"), user.getBiography()));
             }
 
             return cb.and(predicates.toArray(new Predicate[0]));

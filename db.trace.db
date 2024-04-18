@@ -67,3 +67,297 @@ insert into member values ('112','112','112','12@gmail.com','1') [42103-224]
 2024-04-17 21:58:40.800125+08:00 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
 select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-17 23:44:37.734378+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-17 23:44:37.743136+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-17 23:44:38.590805+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-17 23:50:16.587722+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-17 23:50:16.597385+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-17 23:50:17.352100+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-17 23:51:37.081416+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-17 23:51:37.089991+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-17 23:51:37.845679+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-17 23:55:38.840310+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-17 23:55:38.850408+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-17 23:55:39.609791+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-18 00:01:13.239826+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-18 00:01:13.250701+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-18 00:01:14.007655+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-18 00:04:19.617861+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-18 00:04:19.627501+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-18 00:04:20.462738+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-18 00:08:08.135899+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-18 00:08:08.144771+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-18 00:08:08.906520+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-18 22:25:20.136579+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-18 22:25:20.260263+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id bigint not null, biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id bigint not null, biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-18 22:25:21.107226+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-18 22:30:21.782646+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-18 22:30:21.797979+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-18 22:30:22.593103+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-18 22:39:42.182309+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS ""User"" ( User_ID VARCHAR(30) NOT NULL, User_Name VARCHAR(300) NOT NULL, Email VARCHAR(300) NOT NULL, Password VARCHAR(200) NOT NULL, Biography VARCHAR(200) NOT NULL, enabled VARCHAR(1) NOT NULL DEFAULT '1', CONSTRAINT [*]User PRIMARY KEY (User_ID) )"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS "User" ( User_ID VARCHAR(30) NOT NULL, User_Name VARCHAR(300) NOT NULL, Email VARCHAR(300) NOT NULL, Password VARCHAR(200) NOT NULL, Biography VARCHAR(200) NOT NULL, enabled VARCHAR(1) NOT NULL DEFAULT '1', CONSTRAINT User PRIMARY KEY (User_ID) ) [42001-224]
+2024-04-18 22:45:59.122897+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-18 22:45:59.132332+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-18 22:45:59.914285+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-18 22:52:41.774398+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-18 22:52:41.783455+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-18 22:52:42.580227+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-18 23:00:50.014606+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-18 23:00:50.023601+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-18 23:00:50.775597+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-18 23:37:30.190188+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-18 23:37:30.199881+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-18 23:37:30.950258+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-18 23:43:35.441104+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-18 23:43:35.450782+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255) not null, user_name varchar(255), primary key (user_id)) [42001-224]
+2024-04-18 23:43:36.268386+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_id,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_name from user u1_0 [42001-224]
+2024-04-19 00:19:20.208701+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-19 00:19:20.218907+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255), user_name varchar(255) not null, primary key (user_name))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255), user_name varchar(255) not null, primary key (user_name)) [42001-224]
+2024-04-19 00:19:21.030561+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_name,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_id from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_name,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_id from user u1_0 [42001-224]
+2024-04-19 00:20:14.998717+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table [*]user if exists"; expected "identifier"; SQL statement:
+drop table user if exists [42001-224]
+2024-04-19 00:20:15.006700+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255), user_name varchar(255) not null, primary key (user_name))"; expected "identifier"; SQL statement:
+create table user (biography varchar(255), email varchar(255), enabled varchar(255), password varchar(255), user_id varchar(255), user_name varchar(255) not null, primary key (user_name)) [42001-224]
+2024-04-19 00:20:15.788306+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.user_name,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_id from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.user_name,u1_0.biography,u1_0.email,u1_0.enabled,u1_0.password,u1_0.user_id from user u1_0 [42001-224]
+2024-04-19 00:23:17.429039+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "USER_ID" not found; SQL statement:
+INSERT INTO "member" (USER_ID,User_Name, Email, Password, Biography, enabled) VALUES ('0912345678','test', 'test@gmail.com', '0000', 'test', '1') [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:759)
+	at org.h2.command.Parser.parseColumn(Parser.java:1190)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1175)
+	at org.h2.command.Parser.parseInsert(Parser.java:1549)
+	at org.h2.command.Parser.parsePrepared(Parser.java:719)
+	at org.h2.command.Parser.parse(Parser.java:592)
+	at org.h2.command.Parser.parse(Parser.java:564)
+	at org.h2.command.Parser.prepareCommand(Parser.java:483)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.esun.WebApplication.main(WebApplication.java:24)
+2024-04-19 00:24:46.288296+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "USER_ID" not found; SQL statement:
+INSERT INTO "member" (USER_ID,User_Name, Email, Password, Biography, enabled) VALUES ('0912345678','test', 'test@gmail.com', '0000', 'test', '1') [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:759)
+	at org.h2.command.Parser.parseColumn(Parser.java:1190)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1175)
+	at org.h2.command.Parser.parseInsert(Parser.java:1549)
+	at org.h2.command.Parser.parsePrepared(Parser.java:719)
+	at org.h2.command.Parser.parse(Parser.java:592)
+	at org.h2.command.Parser.parse(Parser.java:564)
+	at org.h2.command.Parser.prepareCommand(Parser.java:483)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.esun.WebApplication.main(WebApplication.java:24)
+2024-04-19 00:28:06.476571+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "USER_ID" not found; SQL statement:
+INSERT INTO "member" (USER_ID,User_Name, Email, Password, Biography, enabled) VALUES ('0912345678','test', 'test@gmail.com', '0000', 'test', '1') [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:759)
+	at org.h2.command.Parser.parseColumn(Parser.java:1190)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1175)
+	at org.h2.command.Parser.parseInsert(Parser.java:1549)
+	at org.h2.command.Parser.parsePrepared(Parser.java:719)
+	at org.h2.command.Parser.parse(Parser.java:592)
+	at org.h2.command.Parser.parse(Parser.java:564)
+	at org.h2.command.Parser.prepareCommand(Parser.java:483)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.esun.WebApplication.main(WebApplication.java:24)

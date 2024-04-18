@@ -10,46 +10,27 @@ import lombok.ToString;
 @Setter
 @ToString
 @Entity
-//@Table(name = "User" )
 @Table(name = "member" )
 public class User {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name="User_ID")
-//    private Long user_id;
-//
-//    @Column(name="User_Name")
-//    private String user_name;
-//
-//    @Column(name="Email")
-//    private String email;
-//
-//    @Column(name="Password")
-//    private String password;
-//
-//    @Column(name="Biography")
-//    private String biography;
-//
-//    @Column(name="enabled")
-//    private String enabled;
-
-
     @Id
-    @Column(name="username")
+    @Column(name="User_ID")
+    private String userId;
+
+    @Column(name="User_Name")
     private String username;
 
-    @Column(name="realname")
-    private String realname;
+    @Column(name="Email")
+    private String email;
 
-    @Column(name="password")
-    @JsonIgnore
+    @Column(name="Password")
     private String password;
 
-    @Column(name="email")
-    private String email;
+    @Column(name="Biography")
+    private String biography;
 
     @Column(name="enabled")
     private String enabled;
+
 
     @Transient
     private String action;

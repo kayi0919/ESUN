@@ -36,23 +36,26 @@ public class LoginController {
 
     @PostMapping(value = "/register")
     public String register(String username,
-                           String realname,
-                           String password,
+                           String userId,
                            String email,
-                           String action,
+                           String password,
+                           String biography,
                            Model model) {
-        if (username == null || username.isEmpty() || realname == null || realname.isEmpty() ||
-                password == null || password.isEmpty() || email == null || email.isEmpty()) {
+        if (username == null || username.isEmpty() || userId == null || userId.isEmpty() ||
+                email == null || email.isEmpty() || password == null || password.isEmpty() ||
+        biography == null || biography.isEmpty()) {
             model.addAttribute("error", "請輸入資料");
             return "/register";
         }
         User user = new User();
         user.setUsername(username);
-        user.setRealname(realname);
-        user.setPassword(password);
+        user.setUserId(userId);
         user.setEmail(email);
+        user.setPassword(password);
+        user.setBiography(biography);
         user.setEnabled("1");
         registerRepository.save(user);
         return "redirect:/login";
     }
+
 }
