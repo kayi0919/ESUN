@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>包裹事項清單</title>
+    <script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js}"></script>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+    <style>
+        /* 自定義樣式 */
+        .custom-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .chart-body {
+            display: inline-block;
+            width: 80%; /* 圖表本身寬度 */
+            margin-top: 20px; /* 上方間距 */
+            margin-bottom: 20px; /* 下方間距 */
+        }
+        .chart-box {
+            width: 60%; /* 圖表容器寬度 */
+            margin: 0 auto; /* 水平置中 */
+            text-align: center; /* 內容置中 */
+        }
+
+        /* 移除連結的底線 */
+        a.card {
+            text-decoration: none;
+        }
+
+        /* 讓連結內的數字顏色為藍色 */
+        a.card .card-title:first-child {
+            color: blue;
+        }
+
+
+    </style>
+</head>
+    <body>
+        <header th:include="~{/common/header}"></header>
+        <!-- side bar 功能-->
+        <div th:include="~{/common/sidebar}"></div>
+
+        <div class="container mt-5">
+            <a th:href="@{/web/home/createarticle}" th:text="新增文章" class="btn btn-primary"></a>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>文章</h1>
+                    <div class="announcement bg-primary-subtle">
+                        <!-- 重要公告部分的 HTML -->
+                        <div th:each="article : ${articles}">
+                            <div class="card">
+                                <div class="card-body d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <h4 class="card-title">標題: <span th:text="${announcement.atitle}"></span></h4>
+                                        <p class="card-text">內容: <span th:text="${announcement.acontent}"></span></p>
+                                    </div>
+                                    <form th:action="@{/web/orderlist/delete}" method="post" onsubmit="return confirm('確定要刪除嗎?')">
+                                        <input type="hidden" name="announcement_id" th:value="${announcement.announcement_id}" />
+                                        <button class="btn btn-danger" type="submit">刪除</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script th:inline="javascript">
+            function deleteAnnouncement(button) {
+                var announcementId = button.getAttribute('data-id');
+
+                if (confirm('確定要刪除此公告嗎？')) {
+                    fetch('/web/announcement/' + announcementId, {
+                        method: 'DELETE'
+                    })
+                        .then(function(response) {
+                            if (response.ok) {
+                                return response.text();
+                            } else {
+                                throw new Error('刪除失敗');
+                            }
+                        })
+                        .then(function(data) {
+                            alert(data);
+                            window.location.reload();
+                        })
+                        .catch(function(error) {
+                            console.error('出錯了:', error);
+                            alert('刪除失敗');
+                        });
+                }
+            }
+        </script>
+
+    </body>
+</html>

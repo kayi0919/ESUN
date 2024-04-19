@@ -45,7 +45,7 @@ public class SecurityConfiguration {
 
         http.formLogin(httpSecurityFormLoginConfigurer -> {
             httpSecurityFormLoginConfigurer.loginPage("/login")
-                    .defaultSuccessUrl("/web/orderlist")
+                    .defaultSuccessUrl("/web/home")
                     .usernameParameter("username")
                     .passwordParameter("password")
                     .failureHandler((request, response, exception) -> {

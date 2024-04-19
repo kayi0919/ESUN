@@ -24,9 +24,19 @@ public class LoginController {
     }
 
 
-    @GetMapping("/login")
+    @GetMapping({"/","/login"})
     public String login() throws JsonProcessingException {
         return "login";
+    }
+
+    @GetMapping({"/web/home"})
+    public String home() throws JsonProcessingException {
+        return "home";
+    }
+
+    @GetMapping({"/web/home/createarticle"})
+    public String createarticle() throws JsonProcessingException {
+        return "createarticle";
     }
 
     @GetMapping("/register")
